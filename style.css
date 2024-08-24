@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url(acetes/img/bg.jpg);
+    height: 100vh;
+    /* opacity: -1; */
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    /* opacity: 0.4; */
+
+}
+#type{
+    z-index: 10;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    
+}
+#type option{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.bottom{
+    border: 1px solid grey;
+    background-color: black;
+     width: 8rem; 
+    margin: 0px 12px;
+    font-size: 25px;
+    height: 30px;
+    border-radius: 5px;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+}
+.top button{
+    background-color: red;
+    color: white;
+    width: 5rem;
+    border-radius: 6px;
+    border: none;
+}
+
+.top {
+    display: flex;
+    position: relative;
+    z-index: 10;
+    top: 12px;
+    /* width: 12rem; */
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    /* text-align: center; */
+
+}
+
+ 
+
+
+
+.logo {
+    width: 150px;
+    position: relative;
+    z-index: 1;
+    top: 12px;
+    left: 25px;
+
+}
+
+.main .box {
+    opacity: 0.66;
+    background-color: black;
+    height: 110vh;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+
+nav {
+
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    position: relative;
+    z-index: 10;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    right: 40px;
+}
+
+.big {
+    font-size: 58px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 50px;
+
+}
+
+.large {
+    font-size: 68px;
+    font-weight: 600;
+    position: relative;
+    bottom: 60px;
+}
+
+.medium {
+    font-size: 21px;
+    position: relative;
+    bottom: 60px;
+    font-weight: bold;
+}
+
+.small {
+    font-size: 14px;
+    position: relative;
+    bottom: 28px;
+    font-size: 18px;
+}
+
+.input {
+    width: 23.5rem;
+    height: 2.8rem;
+    position: relative;
+    bottom: 22px;
+    border-radius: 6px;
+    opacity: 0.9;
+    background: transparent;
+
+    border: 2px solid grey;
+    padding: 6px;
+    font-size: 18px;
+    padding-left: 8px;
+    color: white;
+
+
+
+}
+
+.get {
+    height: 3.8rem;
+    font-size: 25px;
+    width: 14rem;
+    border-radius: 5px;
+    position: relative;
+    bottom: 22px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+
+}
+
+.icon {
+    margin: 8px;
+}
+
+body {
+    background-color: rgb(7, 7, 7);
+    overflow-x: hidden;
+    font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif ;
+
+
+}
+
+.container {
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.class {
+    /* margin-top: -300;  */
+    position: relative;
+    bottom: 5rem;
+    height: 40vh;
+    width: 101%;
+    right: 9px;
+    background: black;
+    border-top-left-radius: 60% 20%;
+    border-top-right-radius: 60% 20%;
+    border: 4px solid rgb(244, 68, 109);
+    border-bottom-style: none;
+}
+
+.container3 {
+    position: relative;
+    background-color: black;
+    height: 40vh;
+    bottom: 15rem;
+    left: 150px;
+    /* top: 1rem; */
+}
+
+#select {
+    padding: 10px;
+    border: 2px solid rgb(75, 74, 74);
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+#other {
+    padding: 10px;
+    border: 2px solid rgb(75, 74, 74);
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    margin-left: 20px;
+
+}
+
+.container4 {
+    margin-top: 22px;
+    display: grid;
+    height: 350px;
+    /* margin: auto; */
+    position: relative;
+    width: 90%;
+    display: grid;
+    /* place-items: center; */
+}
+
+
+.slider-track {
+    display: flex;
+    /* width: calc(25px * 18);  */
+    overflow: auto;
+
+
+    /* border-radius: 12px; */
+}
+
+.slide {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    padding: 18px;
+    /* border: 2px solid transparent; */
+    border-radius: 32px;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+.slide:hover {
+    transform: scale(1.1);
+    z-index: 3;
+}
+
+.slider-track::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.more {
+    font-size: 25px;
+    position: relative;
+    bottom: 33px;
+}
+
+.grid {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.item {
+    position: relative;
+    /* padding: 0px 30px; */
+    left: 112px;
+    border-radius: 9px;
+    margin: 0px 15px;
+    width: 13.5rem;
+    height: 21rem;
+    background-color: rgb(27, 18, 43);
+}
+
+.item h2 {
+    position: relative;
+    width: 11.8rem;
+    top: 15px;
+    left: 20px;
+}
+
+.item p {
+    position: relative;
+    width: 12rem;
+    color: rgb(164, 157, 157);
+    top: 2rem;
+    height: 2rem;
+    left: 20px;
+}
+
+.item img {
+    position: relative;
+    /* top: 9rem; */
+    width: 4rem;
+    left: 9rem;
+}
+
+.gridcontainer {
+    position: relative;
+    top: 15px;
+    left: 40px;
+    /* right: 30px;  */
+    width: 80vh;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.arrow {
+    position: relative;
+    top: 8rem;
+}
+
+.kids {
+    position: relative;
+    top: 10.5rem;
+}
+
+.cube {
+    position: relative;
+    top: 10.5rem;
+}
+
+.tv {
+    position: relative;
+    top: 10.5rem;
+}
+
+.question {
+    color: white;
+    font-size: 27px;
+    margin: 60px 10rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.full{
+    color: white;
+    font-size: 22px;
+}
+.box1{
+    border: 2px solid grey;
+    width: 48rem;
+    margin-left: 11rem;
+    height: 3.5rem;
+    margin-top: 1rem;
+    padding: 5px 12px;
+    font-size: 22px;    
+}
+.box1 svg{
+    position: relative;
+    left: 34.8rem;
+    top: 0.7rem;
+}
+.svg2{
+    position: relative;
+    right:8.5rem;
+}
+.svg3{
+
+    position: relative;
+    right: 31px;
+}
+.svg4{
+position: relative;
+right: 9px;
+}
+.svg5{
+    position: relative;
+    right: 7rem;
+}
+.svg6{
+    position: relative;
+    right: 4rem;
+}
+.other-container{
+color: white;
+position: relative;
+top: 3rem;
+left: 11rem;
+font-size: 20px;
+}
+.sub{
+    position: relative;
+    top: 1rem;
+    width: 45rem;
+}
+.mid{
+    position: relative;
+    top: 20px;
+}
+.call{
+    color: white;
+    color: grey;
+    margin-top: 5rem;
+    margin-left: 12rem;
+    font-size: 20px;
+    
+}
+.container6{
+
+    display: grid;
+     /* height: 80vh;  */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+      position: relative; 
+      width:80vw;
+      left: 13rem;
+      top: 2rem;
+}
+.footeritem{
+   display: flex ;
+   flex-direction: column;
+   gap: 10px;
+}
+.footeritem a{
+    color: grey;
+}
+.last{
+   position: relative;
+   left: 12rem; 
+   top: 4rem;
+   color: white;
+}
+.container5{
+    height: 100%; 
+}
+.foot{
+    height: 40vh;
+    position: relative;
+    top: 4rem;
+    left: 6.5rem;
+}
